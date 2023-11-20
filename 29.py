@@ -11,9 +11,6 @@ elif salario_anterior <= 1500:
     percentual_de_aumento = 10
 else:
     percentual_de_aumento = 5
-
-diferenca_entre_salarios = salario_anterior * (percentual_de_aumento / 100)
-salario_atual = salario_anterior + diferenca_entre_salarios
 print(f"Seu salário antes do reajuste era de R${salario_anterior:.2f}")
 print(f"Seu salário foi aumentado em {percentual_de_aumento}%")
 print(f"Seu salário foi aumentado em R${diferenca_entre_salarios:.2f}")
