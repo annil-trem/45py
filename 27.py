@@ -1,15 +1,15 @@
-numero1 = float(input("Digite um numero: "))
-numero2 = float(input("Digite outro numero: "))
-numero3 = float(input("Digite mais um numero: "))
-if numero1 > numero2 > numero3:
-    print(numero1, numero2, numero3)
-elif numero1 > numero3 > numero2:
-    print(numero1, numero3, numero2)
-elif numero2 > numero1 > numero3:
-    print(numero2, numero1, numero3)
-elif numero2 > numero3 > numero1:
-    print(numero2, numero3, numero1)
-elif numero3 > numero1 > numero2:
-    print(numero3, numero1, numero2)
+n1 = float(input("Digite um numero: "))
+n2 = float(input("Digite outro numero: "))
+n3 = float(input("Digite mais um numero: "))
+if n1 > n2 > n3:
+    print(n1, n2, n3)
+elif n1 > n3 > n2:
+    print(n1, n3, n2)
+elif n2 > n1 > n3:
+    print(n2, n1, n3)
+elif n2 > n3 > n1:
+    print(n2, n3, n1)
+elif n3 > n1 > n2:
+    print(n3, n1, n2)
 else:
-    print(numero3, numero2, numero1)
+    print(n3, n2, n1)
